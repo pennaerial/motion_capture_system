@@ -10,5 +10,6 @@
     <param name="fixed_frame_id" value="mocap"/>
     <rosparam param="model_list">[]</rosparam>
     <remap from="vicon/pennair/pose" to="/mavros/mocap/pose"/>
+    <remap from="vicon/PestTrapQuad/pose" to="/mavros/mocap/pose"/>
   </node>
 </launch>
